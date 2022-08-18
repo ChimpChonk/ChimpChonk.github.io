@@ -27,14 +27,20 @@ li{
     display: inline-block;
     font-size: 40px;
     padding: 20px 20px;
-    color: #f0f8ff;
+    color: azure;
     border: 2px solid aliceblue;
     border-radius: 50%;
     transition: .5s;
+    
 }
 
 li:hover {
-    color: azure;
+    color: #f0ffff;
     border: 1px solid azure;
     transition: .5s;
+}
+
+a:visited{
+    color: azure;
+
 }
