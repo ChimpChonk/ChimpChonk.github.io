@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+}
+
 .text-content{
     color: aliceblue;
     align-items: center;
@@ -5,9 +9,16 @@
     display: flex;
     font-size: 25px;
     height: 100vh;
+
+}
+
+.bg{
     background-image: url(/images/background.jpg);
     background-size: cover;
-    margin: 0,0,0,0;
+    background-repeat: no-repeat;
+}
+
+#bg2{
 
 }
 
@@ -39,5 +50,18 @@ li:hover {
 
 a:visited{
     color: azure;
+
+}
+
+
+#about-me-table{
+    border-radius: 25px;
+    background: #222222;
+    padding: 10px;
+    width: 1000px;
+    height: 150px;
+    margin: 2em;
+    position: center;
+    color: white;
 
 }
