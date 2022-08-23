@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    
 }
 
 .text-content{
@@ -9,6 +10,7 @@ body{
     display: flex;
     font-size: 25px;
     height: 100vh;
+    font-family: 'poppins';
 
 }
 
@@ -18,12 +20,9 @@ body{
     background-repeat: no-repeat;
 }
 
-#bg2{
-
-}
-
 .media {
     position: absolute;
+    margin: auto;
     top: 70%;
     left: 50%;
     transform: translate(-53%, -50%);
@@ -31,7 +30,8 @@ body{
 
 li{
     list-style: none;
-    margin: 10px 30px;
+    margin: auto 30px;
+    margin-top: auto;
     display: inline-block;
     font-size: 40px;
     padding: 20px 20px;
@@ -58,10 +58,28 @@ a:visited{
     border-radius: 25px;
     background: #222222;
     padding: 10px;
-    width: 112em;
-    height: 150px;
-    margin: 2em;
+    width: auto;
+    height: auto;
+    margin: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
     position: center;
     color: white;
+    font-family: 'poppins';
+    display: flex;
 
+}
+
+#about {
+    text-align: center;
+    font-size: 35px;
+    margin-top: auto;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+p {
+    margin-top: 0px;
+    font-size: 20px;
 }
