@@ -47,12 +47,6 @@ body{
     transition: .5s;
 }
 
-a:visited{
-    color: white;
-
-}
-
-
 #about-me-table{
     border-radius: 25px;
     background: #222222;
